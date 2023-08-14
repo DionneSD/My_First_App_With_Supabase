@@ -1,0 +1,4 @@
+1. play around with css a bit - decide background, card layer on top, font colour on top of that (plus added button layer)
+2. add login (play around with policies - do I want to have separate activities based on user? if so how does that affect my tables?)
+3. look into responsiveness to make app more responsive (especially for mobile!)
+4. deploy?
