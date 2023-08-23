@@ -89,11 +89,11 @@ nav h1 {
   border-radius: 50%;
   cursor: pointer;
   /* position: absolute; */
-  bottom: 0;
+  /* bottom: 0;
   right: 0;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
-  margin-left: 0.5em;
+  margin-left: 0.5em; */
 }
 
 .activity-card i:hover {
