@@ -26,6 +26,8 @@ nav a {
   color: var(--base);
   margin: 10px;
   display: inline-block;
+  font-weight: 500;
+  font-size: larger;
 }
 
 nav a:hover {
@@ -34,11 +36,18 @@ nav a:hover {
 
 nav h1 {
   color: var(--base);
+  font-weight: 800;
+  font-size: 3rem;
 }
 .page {
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
+}
+
+p {
+  color: white;
+  font-size: 1.2em;
 }
 
 /* activity grid */
@@ -58,13 +67,18 @@ nav h1 {
   position: relative;
   color: var(--base);
 }
+
+.activity-card h3 {
+  margin: 0.5em;
+}
+
 .activity-card .minutes {
   position: absolute;
   top: -10px;
   right: -10px;
   background: var(--accent);
   color: white;
-  font-weight: bold;
+  font-weight: 500;
   border-radius: 6px;
   width: 40px;
   height: 0;
@@ -75,30 +89,33 @@ nav h1 {
 
 .activity-card p {
   font-style: italic;
+  position: relative;
+  margin: 1em;
 }
 
-.activity-card .buttons {
+.activity-card .i-buttons {
   text-align: right;
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.5em;
+  margin: 0.1em;
 }
 
 .activity-card i {
   color: white;
   font-size: 1.2em;
-  padding: 6px;
+  padding: 0.5em;
   background: var(--base);
+  border: 1px solid var(--background);
   border-radius: 50%;
   cursor: pointer;
-  /* position: absolute; */
-  /* bottom: 0;
-  right: 0;
-  margin-right: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 0.5em; */
+  margin: 0 0.2em;
 }
 
 .activity-card i:hover {
   color: var(--accent);
   background: var(--background);
+  border: 1px solid var(--accent);
 }
 
 /* forms */
@@ -108,7 +125,10 @@ form {
   max-width: 480px;
   margin: 0 auto;
   border-radius: 6px;
-  color: var(--font);
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+  box-shadow: 0 0 0 2px var(--accent);
 }
 form input,
 form textarea {
@@ -122,12 +142,20 @@ form textarea {
 }
 form button {
   background: var(--accent);
-  color: #fff;
-  border: 0;
+  color: var(--background);
+  border: 1px solid var(--accent);
   border-radius: 6px;
   padding: 6px 8px;
   font-family: "Poppins";
+  font-weight: 600;
+  font-size: large;
   cursor: pointer;
+}
+
+form button:hover {
+  background: var(--background);
+  color: var(--accent);
+  border: 1px solid var(--background);
 }
 
 /* order-by buttons */
@@ -135,9 +163,17 @@ form button {
   margin-right: 10px;
   background: var(--base);
   color: #fff;
-  border: 0;
-  padding: 4px 8px;
+  border: 1px solid var(--background);
   border-radius: 6px;
   font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1em;
   cursor: pointer;
+  padding: 1em 1em;
+}
+
+.order-by button:hover {
+  color: var(--accent);
+  background: var(--background);
+  border: 1px solid var(--accent);
 }
