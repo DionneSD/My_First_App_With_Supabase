@@ -1,12 +1,12 @@
 # ⚡️ My First App Using Supabase - A solution to boredom 💪
 
-This project was built using NetNinja's tutorials on [Youtube](https://www.youtube.com/watch?v=ydz7Dj5QHKY&list=PL4cUxeGkcC9hUb6sHthUEwG7r9VDPBMKO). The original app was a smoothie selector website but I adapted it to my own needs to create an app where I could add cards with different activities and the length of time it would take me to complete them. On a day where I'm feeling a bit bored, I can visit my app and browse the activities I've got - boredom be gone!
+This project was built using NetNinja's tutorials on [YouTube](https://www.youtube.com/watch?v=ydz7Dj5QHKY&list=PL4cUxeGkcC9hUb6sHthUEwG7r9VDPBMKO). The original app was a smoothie selector website but I adapted it to my own needs to create an app where I could add cards with different activities and the length of time it would take me to complete them. On a day where I'm feeling a bit bored, I can visit my app and browse the activities I've got - boredom be gone!
 
 ## 🔧 Tech Stack
 HTML | CSS | JavaScript | Supabase
 
 ## 🧱 How I built the app
-This app was built by following the NetNinja tutorials on Youtube and adapting each step to my own needs. I plan to tinker with the app by:
+This app was built by following the NetNinja tutorials on YouTube and adapting each step to my own needs. I plan to tinker with the app by:
   1. playing around with the CSS to make it look visually pleasing to me
   2. refactoring the CSS for a mobile first design so that I can use it on my mobile
   3. deploying it so that I can access it anywhere boredom may strike 🌩️
